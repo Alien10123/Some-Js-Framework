@@ -1,0 +1,13 @@
+Example Syntax:
+
+<script lang="ts">
+    export const mode = "ssg"
+
+    let counter = 0;
+</script>
+
+<h1>{ counter }</h1>
+
+<button on:click="{() => {counter++}}">Counter Go Up</button>
+
+<!-- fsdjf !-->
